@@ -4,6 +4,7 @@
 
 /* We need to tell the tasks where to find files */
 var sources = {
+	redditCredentials: '~/.reddit',
 	stylesheets: './data/stylesheets/*.css',
 	build: './build/'
 }
@@ -49,14 +50,7 @@ gulp.task('reddit-login', function () {
 			callbackURL: "http://127.0.0.1:3000/auth/reddit/callback"
 		},
 		function(accessToken, refreshToken, profile, done) {
-			// asynchronous verification, for effect...
-			process.nextTick(function () {
-				// To keep the example simple, the user's Reddit profile is returned to
-				// represent the logged-in user.  In a typical application, you would want
-				// to associate the Reddit account with a user record in your database,
-				// and return that user instead.
-				return done(null, profile);
-			});
+			return done(null, profile);
 		}
 	));
 });
