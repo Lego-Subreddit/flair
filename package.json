@@ -1,0 +1,11 @@
+{
+  "name": "community-flair",
+  "version": "0.0.0",
+  "author": "Dallas John Slieker <dslieker@gmail.com>",
+  "description": "A system for empowering Reddit communities to manage their own flair systems, with moderator approval.",
+  "devDependencies": {
+    "passport": "^0.2.0",
+    "gulp": "^3.8.6"
+  },
+  "dependencies": {}
+}

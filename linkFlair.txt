@@ -1,11 +1,13 @@
 MOC
 Remix
 Photography
+Illustration
 Stop Motion
 Film
 Blog
 News
 Review
+Instructions
 
 Arctic Action
 Adventurers
@@ -118,6 +120,7 @@ Minitalia
 Model Team
 Modular Buildings
 Modulex
+Monster Fighters
 Mosaic
 Mosaik
 Mystery Packs
