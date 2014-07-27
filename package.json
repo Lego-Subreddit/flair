@@ -5,7 +5,9 @@
   "description": "A system for empowering Reddit communities to manage their own flair systems, with moderator approval.",
   "devDependencies": {
     "passport": "^0.2.0",
-    "gulp": "^3.8.6"
+    "gulp": "^3.8.6",
+    "passport-reddit": "^0.2.4",
+    "gulp-concat": "^2.3.4"
   },
   "dependencies": {}
 }
